@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#E9DCD3">
+
+    <ImageView
+        android:id="@+id/G1"
+        android:layout_width="379dp"
+        android:layout_height="169dp"
+        android:src="@drawable/bear"
+        android:layout_marginTop="30dp"/>
+    <TextView
+        android:id="@+id/T1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="케이크!?"
+        android:textSize="40dp"
+        android:fontFamily="sans-serif-light"
+        android:layout_below="@id/G1"
+        android:layout_centerHorizontal="true"
+         />
+    <TextView
+        android:id="@+id/T2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ur favorite custom korean cake"
+        android:layout_below="@id/T1"
+        android:layout_centerHorizontal="true"
+        />
+
+    <ImageView
+        android:id="@+id/cake1"
+        android:layout_width="147dp"
+        android:layout_height="142dp"
+        android:layout_below="@id/T2"
+        android:src="@drawable/cake_purple"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"
+        />
+    <TextView
+        android:id="@+id/T3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Character Cake"
+        android:layout_below="@id/cake1"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="8dp"
+        />
+
+    <ImageView
+        android:id="@+id/cake2"
+        android:layout_width="147dp"
+        android:layout_height="142dp"
+        android:layout_below="@id/T2"
+        android:src="@drawable/half_cake"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="200dp"
+        />
+    <TextView
+        android:id="@+id/T4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Half Cake"
+        android:layout_below="@id/cake1"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="8dp"
+        />
+
+    <ImageView
+        android:id="@+id/cake3"
+        android:layout_width="147dp"
+        android:layout_height="142dp"
+        android:layout_below="@id/T3"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="13dp"
+        android:src="@drawable/heart_cake" />
+
+    <TextView
+        android:id="@+id/T5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Heart Cake"
+        android:layout_below="@id/cake3"
+        android:layout_marginLeft="88dp"
+        android:layout_marginTop="5dp"
+        />
+
+    <ImageView
+        android:id="@+id/cake4"
+        android:layout_width="147dp"
+        android:layout_height="142dp"
+        android:src="@drawable/bento_cake"
+        android:layout_below="@id/T3"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="200dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bento Cake"
+        android:layout_below="@id/cake4"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="8dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="presented by : salsa agatha"
+        android:layout_below="@id/T5"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+
+</RelativeLayout>
